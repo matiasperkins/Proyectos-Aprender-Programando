@@ -1,0 +1,95 @@
+.nav_bar{
+  position: fixed;
+  width: 100%;
+  top:0;
+  background-color: #A60000;
+  color:#FFFFFF;
+}
+.nav_bar li{
+  display:inline;
+}
+.nav_bar a:link , a:visited{
+  color: #ffffff;
+}
+.nav_bar .index{
+  float: right;
+  width: 15%;
+}
+.nav_bar .contenido{
+  float: left;
+  width: 80%;
+}
+
+.titulo{
+  font-weight: bold;
+  font-family: Times New Roman, serif;
+  color: #A60000;
+  font-size: 24px;
+  float: left;
+  width: 50%;
+  background-color: #f8f8f8;
+  text-decoration: underline;
+  margin-top: 32px;
+  padding-bottom: 1px;
+  margin-bottom: 16px;
+}
+
+.foto_cv{
+  float: right;
+  width: 40%;
+  margin-top: 32px;
+  background: #FFFFFF;
+  padding-bottom: 1px;
+  margin-bottom: 16px;
+}
+
+.foto_cv img{
+  width: 100%;
+}
+
+h4{
+  background: #A60000;
+  color:#FFFFFF;
+  font-weight: bold;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin : 0px;
+}
+
+body{
+  background-color: #f8f8f8;
+}
+
+#informacion_personal{
+  float: left;
+  width: 50%;
+}
+
+#contacto{
+  float: right;
+  width: 50%;
+}
+
+#formacion_academica{
+  clear: both;
+}
+
+.clear{
+  clear: both;
+  background: #E0E0E0;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  margin:2px;
+}
+
+#informacion_personal, #contacto, #formacion_academica,
+#experiencia_laboral, #computacion, #otros_intereses{
+  background: #FFFFFF;
+  padding-bottom: 1px;
+  margin-bottom: 16px;
+}
